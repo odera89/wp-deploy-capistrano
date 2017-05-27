@@ -10,7 +10,7 @@
     <?php wp_head()?>
 </head>
 <body>
-	
+	asdasd
 <!-- Header -->
 <div class = "header">
 	<nav class="navbar navbar-default navbar-fixed-top" id = "navbar">
