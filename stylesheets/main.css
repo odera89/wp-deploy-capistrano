@@ -1,0 +1,367 @@
+/* Kwik Kar Theme
+ * Author: Alkesei
+ * Version: 0.0.1
+ */
+/*Base - Base styles, variables, mixins, etc  */
+/* Modules - Individual site components */
+/* LAYOUTS - Page layout styles */
+/* line 24, ../sass/main.scss */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 300;
+  color: #666;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 400;
+  overflow-x: hidden;
+  min-height: 2000px;
+  padding-top: 70px;
+}
+/* line 38, ../sass/main.scss */
+body h1, body h2, body h3 {
+  color: #111111;
+}
+/* line 42, ../sass/main.scss */
+body a {
+  text-decoration: none !important;
+}
+/* line 45, ../sass/main.scss */
+body ul {
+  list-style-type: none;
+}
+/* line 48, ../sass/main.scss */
+body .navigation {
+  background-color: #222222;
+  width: 100%;
+}
+/* line 52, ../sass/main.scss */
+body .navigation .navheader {
+  padding-top: 30px;
+  height: 155px;
+}
+/* line 56, ../sass/main.scss */
+body .navigation .navheader button {
+  margin: 30px 50px;
+}
+/* line 59, ../sass/main.scss */
+body .navigation .navheader .logo img {
+  width: 100%;
+}
+/* line 62, ../sass/main.scss */
+body .navigation .navheader .navheader-call-mobile {
+  padding-top: 30px;
+}
+/* line 64, ../sass/main.scss */
+body .navigation .navheader .navheader-call-mobile img {
+  width: 100%;
+}
+/* line 68, ../sass/main.scss */
+body .navigation .navheader .navheader-our-location {
+  padding-top: 35px;
+}
+/* line 70, ../sass/main.scss */
+body .navigation .navheader .navheader-our-location img {
+  width: 100%;
+}
+/* line 75, ../sass/main.scss */
+body .navigation .navmenu {
+  background-color: #f8f8f8;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+}
+/* line 82, ../sass/main.scss */
+body .navigation .navmenu a {
+  color: #3f3f3f;
+  padding: 20px 20px;
+}
+/* line 87, ../sass/main.scss */
+body .navigation .navmenu .navbar {
+  margin-bottom: 0px;
+}
+/* line 90, ../sass/main.scss */
+body .navigation .navmenu li:hover {
+  background-color: #c8c8c8;
+}
+/* line 93, ../sass/main.scss */
+body .navigation .navmenu .appoint:hover {
+  background-color: #fd6401;
+}
+/* line 96, ../sass/main.scss */
+body .navigation .navmenu .appoint {
+  height: 60px;
+  background-color: #fdd001;
+  padding-top: 20px;
+}
+/* line 107, ../sass/main.scss */
+body .intro {
+  padding-top: 250px;
+  background-image: url("../img/banner.png");
+  height: 600px;
+  background-repeat: round;
+}
+/* line 115, ../sass/main.scss */
+body .intro h1, body .intro h2, body .intro h3 {
+  color: white;
+}
+/* line 118, ../sass/main.scss */
+body .intro p {
+  color: white;
+}
+/* line 122, ../sass/main.scss */
+body .intro .more-about {
+  background-color: #fdd001;
+  color: #5c5019;
+}
+/* line 126, ../sass/main.scss */
+body .intro .more-about:hover {
+  background-color: #fd6401;
+}
+/* line 131, ../sass/main.scss */
+body #service {
+  padding-top: 50px;
+}
+@media screen and (min-width: 770px) {
+  /* line 131, ../sass/main.scss */
+  body #service {
+    height: 500px;
+  }
+}
+/* line 137, ../sass/main.scss */
+body #service li {
+  padding-top: 20px;
+}
+/* line 140, ../sass/main.scss */
+body #service ul {
+  padding-top: 10px;
+  background-color: #fafafa;
+  height: 300px;
+}
+/* line 147, ../sass/main.scss */
+body #about {
+  margin: 50px 0px 50px 0px;
+  background-color: #fafafa;
+}
+@media screen and (min-width: 770px) {
+  /* line 147, ../sass/main.scss */
+  body #about {
+    height: 535px;
+  }
+}
+/* line 154, ../sass/main.scss */
+body #about .about-desc {
+  padding: 50px 50px 50px 50px;
+}
+/* line 158, ../sass/main.scss */
+body #about .about-photo {
+  background: url("../img/about_photo.png");
+  height: 535px;
+  background-repeat: round;
+}
+/* line 163, ../sass/main.scss */
+body #about p {
+  padding-bottom: 10px;
+}
+/* line 168, ../sass/main.scss */
+body #why {
+  width: 100%;
+  padding-left: 100px;
+}
+@media screen and (min-width: 770px) {
+  /* line 168, ../sass/main.scss */
+  body #why {
+    height: 1000px;
+  }
+}
+/* line 176, ../sass/main.scss */
+body #why .row {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+/* line 180, ../sass/main.scss */
+body #why .block {
+  background-color: #fdd001;
+  padding: 20px 10px 20px 10px;
+  height: 350px;
+  margin-left: 40px;
+}
+/* line 187, ../sass/main.scss */
+body #why .block h3 {
+  margin: 0px 0px 0px 0px;
+}
+@media screen and (max-width: 770px) {
+  /* line 180, ../sass/main.scss */
+  body #why .block {
+    margin-bottom: 20px;
+  }
+}
+/* line 198, ../sass/main.scss */
+body #coupon {
+  background-image: url("../img/coupon.png");
+  padding: 70px 20px 70px 20px;
+}
+@media screen and (min-width: 770px) {
+  /* line 198, ../sass/main.scss */
+  body #coupon {
+    height: 520px;
+  }
+}
+@media screen and (max-width: 770px) {
+  /* line 198, ../sass/main.scss */
+  body #coupon {
+    font-size: 10px;
+  }
+}
+/* line 211, ../sass/main.scss */
+body #coupon .container .box {
+  height: 350px;
+}
+@media screen and (max-width: 770px) {
+  /* line 211, ../sass/main.scss */
+  body #coupon .container .box {
+    margin-bottom: 40px;
+  }
+}
+/* line 217, ../sass/main.scss */
+body #coupon .container .box .content {
+  background-color: white;
+  height: 100%;
+  padding: 20px 20px 20px 20px;
+}
+/* line 227, ../sass/main.scss */
+body #coupon .container .box .comment {
+  font-size: 14px;
+  color: #ababab;
+  font-style: italic;
+}
+/* line 234, ../sass/main.scss */
+body #coupon .container .box h3 {
+  color: #fdd001;
+  margin: 0px 0px 0px 0px;
+}
+/* line 239, ../sass/main.scss */
+body #coupon .container .box a {
+  color: white;
+  font-weight: bold;
+  background-color: #fdd001;
+  padding: 10px 10px 10px 10px;
+}
+/* line 249, ../sass/main.scss */
+body #faq {
+  padding: 50px 20px 70px 20px;
+  background-color: #fafafa;
+}
+@media screen and (min-width: 770px) {
+  /* line 249, ../sass/main.scss */
+  body #faq {
+    height: 700px;
+  }
+}
+/* line 256, ../sass/main.scss */
+body #faq .box {
+  background-color: white;
+  display: inline-flex;
+  padding: 20px 20px 20px 20px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+/* line 262, ../sass/main.scss */
+body #faq .box .col-sm-2 {
+  padding-top: 20px;
+}
+/* line 267, ../sass/main.scss */
+body #faq .row {
+  margin: 10px 10px 10px 10px;
+}
+/* line 272, ../sass/main.scss */
+body #testominal {
+  padding: 50px 50px 50px 50px;
+}
+@media screen and (min-width: 770px) {
+  /* line 272, ../sass/main.scss */
+  body #testominal {
+    height: 400px;
+  }
+}
+/* line 278, ../sass/main.scss */
+body #testominal h3 {
+  padding: 10px 10px 10px 10px;
+  color: #aaaaaa;
+}
+/* line 284, ../sass/main.scss */
+body #contact {
+  background-image: url("../img/contact_photo.png");
+  padding: 50px 50px 50px 50px;
+}
+@media screen and (min-width: 770px) {
+  /* line 284, ../sass/main.scss */
+  body #contact {
+    height: 640px;
+  }
+}
+/* line 290, ../sass/main.scss */
+body #contact h2 {
+  color: white;
+}
+/* line 294, ../sass/main.scss */
+body #contact #sendmessage {
+  color: #d2d2d2;
+  padding: 20px 20px 20px 20px;
+}
+/* line 301, ../sass/main.scss */
+body #contact .btn-message {
+  background-color: #fdd001;
+  padding: 10px 10px 10px 10px;
+  margin-top: 20px;
+}
+/* line 306, ../sass/main.scss */
+body #contact .btn-message a {
+  color: white;
+}
+/* line 314, ../sass/main.scss */
+body #contact-address {
+  height: 220px;
+  padding: 20px 20px 20px 20px;
+}
+/* line 318, ../sass/main.scss */
+body #contact-address .box {
+  background-color: #fafafa;
+  padding: 20px 20px 20px 20px;
+  width: 30%;
+  margin-left: 20px;
+  float: left;
+}
+/* line 326, ../sass/main.scss */
+body #google-map {
+  height: 550px;
+}
+/* line 328, ../sass/main.scss */
+body #google-map #googleMap {
+  width: 100%;
+  height: 100%;
+}
+/* line 335, ../sass/main.scss */
+body #footer-section {
+  height: 500px;
+  margin-top: 50px;
+}
+/* line 338, ../sass/main.scss */
+body #footer-section a, body #footer-section h3, body #footer-section h4, body #footer-section h5 {
+  color: #111111;
+}
+/* line 341, ../sass/main.scss */
+body #footer-section .logo {
+  margin-top: 20px;
+}
+/* line 343, ../sass/main.scss */
+body #footer-section .logo img {
+  width: 100%;
+}
+/* line 347, ../sass/main.scss */
+body #footer-section .footer-column {
+  padding: 20px 20px 20px 20px;
+}
